@@ -1,0 +1,137 @@
+.plan-card {
+  background: white;
+  border-radius: 8px;
+  padding: 10px;
+  padding-top: 0;
+  width: 100%;
+  max-width: 330px;
+  border: 1px solid rgba(18, 25, 41, 0.12);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.plan-card h3 {
+  font-size: 1rem;
+  margin-bottom: 0.9rem;
+  font-weight: 400;
+  align-self: flex-start;
+  text-align: left;
+}
+
+.strong-name {
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.plan-badge {
+  margin-bottom: 1rem;
+  border: 1px dashed rgba(0, 110, 182, 1);
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.description-plan {
+  color: rgba(0, 110, 182, 1);
+  font-size: 16px;
+  margin: 0px;
+  font-weight: 500;
+}
+
+.anual {
+  font-weight: 700;
+  font-size: 14px;
+  color: rgba(18, 25, 41, 0.64);
+}
+
+.anualPrice {
+  font-size: 40px;
+  font-weight: 700;
+  color: rgba(0, 110, 182, 1);
+}
+
+.mensalPrice {
+  font-size: 40px;
+  font-weight: 700;
+  color: rgba(28, 28, 30, 1);
+}
+
+.mensais {
+  font-weight: 700;
+  font-size: 14px;
+  color: rgba(18, 25, 41, 0.64);
+}
+
+.plan-price-container {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  justify-content: center;
+  margin: 0;
+  margin-top: 12px;
+}
+
+.plan-price-container span {
+  margin: 0 3px;
+}
+
+.plan-price p {
+  margin: 0.3rem 0;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.plan-benefits {
+  margin-top: 1rem;
+  background: rgba(63, 79, 255, 1);
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.plan-benefits h4 {
+  font-weight: 400;
+  font-size: 16px;
+  align-self: flex-start;
+  display: flex;
+  margin-left: 10px;
+}
+
+.plan-benefits h4 svg {
+  margin-right: 10px;
+}
+
+.beneficts {
+  padding-left: 1rem;
+  align-self: flex-start;
+  margin-left: 25px;
+}
+
+.beneficts svg {
+  margin-right: 10px;
+}
+
+.plan-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+.annual, .monthly {
+  background-color: rgba(51, 66, 183, 1);
+  padding: 12px 24px;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 24px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.annual:hover, .monthly:hover {
+  background-color: rgb(39, 111, 160);
+}

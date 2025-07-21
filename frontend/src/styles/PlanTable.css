@@ -1,0 +1,142 @@
+.table-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 10px;
+  margin: 0 0 20px;
+  padding: 25px 24px;
+}
+
+.header-content h2 {
+  margin-bottom: 30px;
+  margin-top: 0;
+  color: rgba(18, 25, 41, 1);
+}
+
+.lupasvg {
+  position: absolute;
+  left: 147px;
+  top: 219px;
+}
+
+.search-input {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid rgba(18, 25, 41, 0.12);
+  border-radius: 12px;
+  padding-left: 30px;
+  width: 352px;
+  height: 16px;
+}
+
+.btn-create {
+  background: rgba(59, 81, 255, 1);
+  color: #fff;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 24px;
+  cursor: pointer;
+  width: 133px;
+  height: 43px;
+  margin-top: -15px;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.table-wrapper {
+  background: #fff;
+  padding: 20px 0;
+  border-radius: 10px;
+}
+
+.plan-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+
+.plan-table th {
+  padding: 12px 20px;
+  text-align: left;
+  border: 1px solid rgba(234, 237, 238, 1);
+  font-weight: 600;
+  position: relative;
+  background-color: white;
+  color: rgba(18, 25, 41, 0.64);
+}
+
+.setaCimaBaixo {
+  position: absolute;
+  margin-left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+
+.plan-table td {
+  padding: 12px 20px;
+  text-align: left;
+  border-bottom: 1px solid #eee;
+}
+
+.link-btn {
+  background-color: rgba(18, 25, 41, 0.12);
+  border: 1px solid #2962ff;
+  border-radius: 100%;
+  width: 28px;
+  height: 28px;
+  padding: 8px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pagination {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 24px;
+  font-size: 13px;
+}
+
+.showItems {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  color: rgba(18, 25, 41, 0.64);
+}
+
+.selectDiv {
+  padding: 4px 8px;
+  width: 35px;
+  height: 22px;
+  border-radius: 8px;
+  border: none;
+  background-color: rgba(18, 25, 41, 0.12);
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  gap: 8px;
+  color: black;
+}
+
+.pagination .pages {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: rgba(18, 25, 41, 0.64);
+  word-spacing: 8px;
+  font-size: 14px;
+}
+
+.pagination button {
+  background: none;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.espelharSeta {
+  transform: scaleX(-1);
+}

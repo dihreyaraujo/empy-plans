@@ -1,0 +1,30 @@
+.plan-admin-container {
+  display: flex;
+  min-height: 100vh;
+  background: rgba(234, 237, 238, 1);
+  font-family: 'Roboto', sans-serif;
+}
+
+.plan-admin-content {
+  flex: 1;
+  padding: 30px;
+}
+
+.plan-admin-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.badge {
+  background-color: rgba(59, 81, 255, 1);
+  color: #fff;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 16px;
+  height: 20px;
+  width: 36px;
+  display: flex;
+  align-items: center;
+
+}

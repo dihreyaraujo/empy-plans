@@ -1,0 +1,62 @@
+.sidebar {
+  width: 86px;
+  background-color: rgba(59, 81, 255, 1);
+  border-right: 1px solid #ddd;
+  padding: 16px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+.sidebar-logo {
+  width: 46px;
+  height: auto;
+}
+
+.sidebar-menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 28px;
+  margin-top: 40px;
+}
+
+.btn-sidebar-large {
+  width: 24px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.inv-button {
+  background-color: rgba(0, 0, 255, 0);
+  border: none;
+}
+
+.btn-sidebar {
+  width: 40px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.item-logo {
+  margin-bottom: 405px;
+}
+
+.hoversidebar {
+  padding: 8px;
+  border-radius: 8px;
+}
+
+.hoversidebar:hover {
+  background-color: rgba(101, 124, 254, 1);
+}
+
+.hoversidebar-large {
+  padding: 1px;
+  border-radius: 8px;
+}
+
+.hoversidebar-large:hover {
+  background-color: rgba(101, 124, 254, 1);
+}
